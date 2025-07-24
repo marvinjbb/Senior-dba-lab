@@ -20,10 +20,10 @@ This phase focuses on designing and implementing professional backup and restore
 ## **Key SQL Commands**
 All backup and restore commands are placed in the `scripts` folder:
 
-- [**full_backup.sql**](scripts/full_backup.sql) – Script for creating full backups.
-- [**diff_backup.sql**](scripts/diff_backup.sql) – Script for differential backups.
-- [**log_backup.sql**](scripts/log_backup.sql) – Script for transaction log backups.
-- [**point_in_time_restore.sql**](scripts/point_in_time_restore.sql) – Script for point-in-time restores.
+- **full_backup.sql**](scripts/full_backup.sql – Script for creating full backups.
+- **diff_backup.sql**](scripts/diff_backup.sql – Script for differential backups.
+- **log_backup.sql**](scripts/log_backup.sql – Script for transaction log backups.
+- **point_in_time_restore.sql**](scripts/point_in_time_restore.sql – Script for point-in-time restores.
 
 ---
 
