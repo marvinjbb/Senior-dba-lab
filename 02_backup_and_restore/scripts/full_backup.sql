@@ -1,0 +1,4 @@
+-- Full Backup of ProdDB
+BACKUP DATABASE ProdDB
+TO DISK = 'C:\Program Files\Microsoft SQL Server\MSSQL16.SQLSERVERSENIOR\MSSQL\Backup\ProdDB_Full.bak'
+WITH INIT, COMPRESSION, STATS = 10;
