@@ -1,0 +1,11 @@
+USE msdb;
+GO
+
+-- Create an alert for job failures
+EXEC sp_add_alert 
+    @name = N'Job Failure Alert',
+    @message_id = 0,
+    @severity = 16,
+    @enabled = 1,
+    @delay_between_responses = 0,
+    @notification_message = N'Job failed. Check SQL Server Agent logs.';
