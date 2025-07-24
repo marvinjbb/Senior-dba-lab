@@ -1,0 +1,4 @@
+-- Differential Backup of ProdDB
+BACKUP DATABASE ProdDB
+TO DISK = 'C:\Program Files\Microsoft SQL Server\MSSQL16.SQLSERVERSENIOR\MSSQL\Backup\ProdDB_Diff.bak'
+WITH DIFFERENTIAL, INIT, COMPRESSION, STATS = 10;
